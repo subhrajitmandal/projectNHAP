@@ -1,20 +1,28 @@
 .form-width {
-    .mat-form-field {
-        width: 80%;
-        padding-bottom: 2%;
-    }
-    
-    .mat-radio-group {
-        width: 80%;
-        padding-bottom: 2%;
-    }
+  .mat-form-field {
+    width: 80%;
+    padding-bottom: 2%;
+  }
 
-    .mat-radio-button {
-        padding: 1%;
-    }
+  .mat-radio-group {
+    width: 80%;
+    padding-bottom: 2%;
+  }
+
+  .mat-radio-button {
+    padding: 1%;
+  }
 }
 
 .file-div {
-    width: 80%;
-    padding-bottom: 2%;
+  width: 80%;
+  padding-bottom: 2%;
+}
+
+.info-label {
+  display: flex;
+  align-items: center;
+  mat-icon {
+    margin-left: 5px;
+  }
 }

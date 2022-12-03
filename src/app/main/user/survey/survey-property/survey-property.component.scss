@@ -1,6 +1,14 @@
-.form-width{
-    .mat-form-field {
-        width: 80%;
-        padding-bottom: 2%;
-    }
+.form-width {
+  .mat-form-field {
+    width: 80%;
+    padding-bottom: 2%;
+  }
+}
+
+.info-label {
+  display: flex;
+  align-items: center;
+  mat-icon {
+    margin-left: 5px;
+  }
 }
